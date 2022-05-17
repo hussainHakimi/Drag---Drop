@@ -32,10 +32,11 @@ function Drop(){
 
 function dragOver(e){
     e.preventDefault();
+    this.style.border = '2px dashed cyan';
 }
 function dragEnter(e) {
     e.preventDefault();
 }
 function dragLeave(){
-
+    this.style.border = 'none';
 }
